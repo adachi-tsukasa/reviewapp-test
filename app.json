@@ -1,9 +1,14 @@
 {
   "name": "reviewapp-test",
   "scripts": {
-    "postdeploy": "npm install"
   },
   "env": {
+    "NODE_MODULES_CACHE": {
+      "required": false
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "required": false
+    }
   },
   "formation": {
   },
@@ -12,7 +17,7 @@
   ],
   "buildpacks": [
     {
-      "urn:buildpack:heroku/nodejs"
+      "url": "heroku/nodejs"
     }
   ]
 }
