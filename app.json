@@ -1,0 +1,16 @@
+{
+  "name": "reviewapp-test",
+  "scripts": {
+    "postdeploy": "npm install"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
