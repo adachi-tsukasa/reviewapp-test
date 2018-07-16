@@ -50,7 +50,8 @@
   "devDependencies": {
     "@ionic/app-scripts": "3.1.10",
     "http-server": "^0.11.1",
-    "typescript": "~2.6.2"
+    "typescript": "~2.6.2",
+    "ios-deploy": "^1.9.2"
   },
   "description": "An Ionic project",
   "cordova": {
